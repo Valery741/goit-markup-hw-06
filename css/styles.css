@@ -239,9 +239,9 @@ img {
     text-align: left;
   }
   .team-list {
-     flex-direction: column
-     flex-wrap: wrap;
-    gap: 24px;
+    flex-direction: column;
+    column-gap: 24px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
