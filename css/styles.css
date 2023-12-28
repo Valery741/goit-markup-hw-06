@@ -239,11 +239,13 @@ img {
     text-align: left;
   }
   .team-list {
-    flex-direction: column;
-    column-gap: 24px;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
   }
   .team-item {
     background-color: #ffffff;
@@ -252,6 +254,8 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -330,7 +334,6 @@ img {
 
 .team-list {
   display: flex;
-
   flex-direction: column;
   gap: 32px;
 }
@@ -366,7 +369,6 @@ img {
 }
 .social-team-list {
   display: flex;
-
   justify-content: center;
   gap: 24px;
 }
