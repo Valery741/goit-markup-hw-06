@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=,device-width initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -28,7 +28,6 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <!-- Navigation -->
         <nav class="navigation">
           <a href="./index.html" class="logo-header"
             >Web<span class="logo-span">Studio</span></a
@@ -59,18 +58,23 @@
             </li>
           </ul>
         </address>
+        <button class="button-burger js-open-menu" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/symbol.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <!-- Main content -->
 
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="section-title">Effective Solutions for Your Business</h1>
           <button class="section-button" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Main content list -->
 
@@ -373,7 +377,7 @@
       </section>
 
       <!-- Our Portfolio -->
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="list-port">
@@ -493,11 +497,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-box">
         <div class="logo-text-box">
           <a href="./index.html" class="footer-logo"
@@ -558,7 +562,6 @@
           </ul>
         </div>
 
-        <!-- Footer form -->
         <div class="subscr-box">
           <p class="subscr-form-text">Subscribe</p>
           <form class="subscr-form">
@@ -580,10 +583,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!--Modal window-->
-    <div class="modal-container">
+    <!-- <div class="modal-container">
       <div class="modal-w-box">
         <button class="close-btn" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -659,6 +662,10 @@
           <button class="submit-form-btn" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+    <div class="js-menu-container mobile-menu">
+      <button class="js-close-menu" type="button">x</button>
     </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
