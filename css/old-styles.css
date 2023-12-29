@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #fff;
 }
-.title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -362,7 +362,6 @@ img {
 
 .portfolio {
   background-color: #fff;
-  border: #e7e9fc;
   padding: 120px 0 120px 0;
 }
 
