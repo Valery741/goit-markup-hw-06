@@ -723,7 +723,7 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-tab-x1.jpg);
+      url(../images/hero-tab-1x.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -732,7 +732,7 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-tab-x2.jpg);
+      url(../images/hero-tab-2x.jpg);
   }
 }
 
