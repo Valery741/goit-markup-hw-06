@@ -940,6 +940,9 @@ footer {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-desc-x1.jpg);
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 
   .container {
@@ -985,16 +988,7 @@ footer {
   .team {
     padding: 120px 0;
   }
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero.jpg);
-    max-width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 188px;
-  }
+
   .section-title {
     margin-bottom: 48px;
   }
