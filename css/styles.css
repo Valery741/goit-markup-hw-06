@@ -116,6 +116,7 @@ img {
 .address {
   display: none;
 }
+
 .team {
   background-color: #f4f4fd;
   padding: 96px 0;
@@ -136,6 +137,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  align-items: center;
 }
 .team-item {
   background-color: #ffffff;
@@ -204,7 +206,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
+    url(../images/hero-mob-x1.jpg);
   margin: auto;
   max-width: 320px;
   background-repeat: no-repeat;
@@ -214,6 +216,7 @@ img {
   padding-bottom: 72px;
   background-color: rgba(46, 47, 66, 0.7);
 }
+
 .section-title {
   color: #fff;
   text-align: center;
@@ -699,9 +702,37 @@ footer {
   top: 24px;
   right: 24px;
 }
+
 @media screen and (min-width: 320px) {
   .container {
     width: 320px;
+  }
+}
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-mob-x2.jpg);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab-x1.jpg);
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab-x2.jpg);
   }
 }
 
@@ -901,8 +932,24 @@ footer {
     display: none;
   }
 }
-
+@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-desc-x2.jpg);
+  }
+}
 @media screen and (min-width: 1440px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-desc-x1.jpg);
+  }
+
   .container {
     width: 1158px;
     padding: 0 15px;
