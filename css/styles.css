@@ -717,24 +717,6 @@ footer {
       url(../images/hero-mob-x2.jpg);
   }
 }
-@media only screen and (min-width: 768px) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-tab-1x.jpg);
-  }
-}
-@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-tab-2x.jpg);
-  }
-}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -932,16 +914,26 @@ footer {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-desc-x2.jpg);
+      url(../images/hero-tab-1x.jpg);
   }
 }
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1021,6 +1013,15 @@ footer {
   .portfolio-list-item:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+}
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-desc-x2.jpg);
   }
 }
 .modal-w-box {
