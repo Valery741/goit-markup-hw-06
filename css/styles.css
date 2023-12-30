@@ -932,7 +932,7 @@ footer {
     display: none;
   }
 }
-@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -941,7 +941,7 @@ footer {
       url(../images/hero-desc-x2.jpg);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
